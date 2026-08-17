@@ -31,6 +31,7 @@ Agent will:
 **Git Discipline**
 - Files staged with `git add` immediately after creation/deletion (check `git status` shows them staged)
 - No monkeypatching (runtime module/class modifications). Refactors use DI, inheritance, or plugin pattern
+- anything not for checkin added to .gitignore
 
 **Plan Mode**
 - Tasks 3+ steps or architectural decisions entered plan mode via EnterPlanMode
